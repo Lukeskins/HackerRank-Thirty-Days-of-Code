@@ -9,7 +9,7 @@ public static void main(String[] args) {
         int tipPercent = scan.nextInt();
         int taxPercent = scan.nextInt();
         scan.close();
-
+        
         double tip = mealCost * ((tipPercent + 0.0)/100);
         double tax = mealCost * ((taxPercent + 0.0)/100);
         mealCost = mealCost + tip + tax;
