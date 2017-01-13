@@ -18,7 +18,6 @@ public static void main(String [] argh){
         }
         while(in.hasNext()) {
                 String s = in.next();
-                // Write code here
 
                 if (phoneBook.containsKey(s)) {
                         System.out.println(s+"="+phoneBook.get(s));
