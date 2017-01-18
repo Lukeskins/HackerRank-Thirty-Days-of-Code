@@ -1,30 +1,5 @@
 // Day 12 - Inheritance
 
-// given class
-
-import java.util.*;
-
-class Person {
-protected String firstName;
-protected String lastName;
-protected int idNumber;
-
-Person(String firstName, String lastName, int identification){
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.idNumber = identification;
-}
-
-public void printPerson(){
-        System.out.println(
-                "Name: " + lastName + ", " + firstName
-                +   "\nID: " + idNumber);
-}
-
-}
-
-// my code
-
 class Student extends Person {
 private int[] testScores;
 Student (String firstName, String lastName, int id, int[] scores) {
